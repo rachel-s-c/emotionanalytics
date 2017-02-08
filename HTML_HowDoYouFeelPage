@@ -91,7 +91,7 @@
 			</div>
 
 			<div>
-				<button class="continue"> Continue </button>
+				<button id="continue"> Continue </button>
 			</div>
 
 			<div id="homebutton">
