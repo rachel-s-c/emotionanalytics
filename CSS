@@ -76,8 +76,8 @@
   font-size: 12px;
   position:fixed;
   float: right;
-  bottom: 282px;
-  right: 380px;
+  left: 200px;
+  top: 400px;
 }
 
 
@@ -101,12 +101,13 @@
 }
 
 #homebutton {
-  position: fixed;
+  position: absolute;
   float: right;
-  bottom: 278px;
-  right: 353px;
+  left: 275px;
+  top: 400px;
 }
 
 #homebutton:hover {
     transform: scale(1.3);
 }
+
