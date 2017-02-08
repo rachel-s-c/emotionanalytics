@@ -1,6 +1,6 @@
 #background {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Wooden-Texture-Background.jpg);
-	height: 420px;
+	background: pink;
+  height: 420px;
 	width: 300px;
 }
 
@@ -43,4 +43,70 @@
   font-family: Verdana, Geneva, sans-serif;
   color: rgb(0,0,0);
   background-color: rgb(245,245,245);
+}
+
+.data_page_button {
+  height: 40px;
+  width: 140px;
+  text-align: left;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: rgb(0,0,0);
+  background-color: rgb(245,245,245);
+}
+
+.page_heading {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0,0,0);
+}
+
+
+.instructions{
+  font-size: 12px;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.continue{
+  font-size: 12px;
+  position:fixed;
+  float: right;
+  bottom: 282px;
+  right: 380px;
+}
+
+
+.slider {
+  position: center;
+  padding-left: 80px;
+}
+
+.slider_right {
+  float: right;
+  font-size: 8px;
+  padding-top: -20px;
+  padding-right: 90px;
+}
+
+.slider_left {
+  float: left;
+  font-size: 8px;
+  padding-left: 83px;
+  padding-bottom: 30px;
+}
+
+#homebutton {
+  position: fixed;
+  float: right;
+  bottom: 278px;
+  right: 353px;
+}
+
+#homebutton:hover {
+    transform: scale(1.3);
 }
