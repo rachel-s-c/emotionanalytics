@@ -1,0 +1,46 @@
+#background {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/Wooden-Texture-Background.jpg);
+	height: 420px;
+	width: 300px;
+}
+
+#settings {
+  background-image: url("https://www.muninmx.com/images/pre3.png");
+  float: right;
+  height: 40px;
+  width: 60px;
+}
+
+#title {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
+
+#how_do_you_feel_button {
+  height: 40px;
+  width: 270px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px; 
+  margin: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: rgb(0,0,0);
+  background-color: rgb(245,245,245);
+  
+}
+
+.front_page_button {
+  height: 40px;
+  width: 65px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: rgb(0,0,0);
+  background-color: rgb(245,245,245);
+}
