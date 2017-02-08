@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Prototype 1 (wood)</title>
+	<link rel="stylesheet" href="CSS">
+</head>
+
+<body>
+	<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="Prototype 1.css">
+	</head>
+
+	<body>
+		<div id = "background"> 
+			<div class = "page_heading"> How Do You Feel?
+			</div>
+			<br>
+			<div class = "instructions">
+				Move these sliders based on how you are feeling today.
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class="slider">
+				<input type="range" min="-50" max="50" value=0 onchange="showValue(this.value)" />
+				<span id="range">0</span>
+				<script type="text/javascript">
+					function showValue(newValue){
+						document.getElementById("range").innerHTML=newValue;
+					}
+				</script>
+			</div>
+			<div class="slider_right">
+				Excited
+			</div>
+			<div class="slider_left">
+				Bored
+			</div>
+			<div style="clear:both;"></div>
+			<div class="slider">
+				<input type="range" min="-50" max="50" value=0 onchange="showValue2(this.value)" />
+				<span id="range2">0</span>
+				<script type="text/javascript">
+					function showValue2(newValue){
+						document.getElementById("range2").innerHTML=newValue;
+					}
+				</script>
+			</div>
+			<div class="slider_right">
+				Calm
+			</div>
+			<div class="slider_left">
+				Frustrated
+			</div>
+						<div style="clear:both;"></div>
+
+			<div class="slider">
+				<input type="range" min="-50" max="50" value=0 onchange="showValue3(this.value)" />
+				<span id="range3">0</span>
+				<script type="text/javascript">
+					function showValue3(newValue){
+						document.getElementById("range3").innerHTML=newValue;
+					}
+				</script>
+			</div>
+			<div class="slider_right">
+				Confident
+			</div>
+			<div class="slider_left">
+				Anxious
+			</div>
+						<div style="clear:both;"></div>
+
+			<div class="slider">
+				<input type="range" min="-50" max="50" value=0 onchange="showValue4(this.value)" />
+				<span id="range4">0</span>
+				<script type="text/javascript">
+					function showValue4(newValue){
+						document.getElementById("range4").innerHTML=newValue;
+					}
+				</script>
+			</div>
+			<div class="slider_right">
+				Happy
+			</div>
+			<div class="slider_left">
+				Sad
+			</div>
+
+			<div>
+				<button class="continue"> Continue </button>
+			</div>
+
+			<div id="homebutton">
+				<img src = "https://lh3.ggpht.com/A0x3jzuH1qRkE10HcTiT4qQr_6iAqVg-CTsoIqxnoIFyv92V91WI3KqiVlOvLtfoMRg=w300" alt = "Home button" style = " height:20px; width: 20px">
+			</div>
+
+		</div>
+	</body>
+
+	</html>
+
+
+</body>
+</html>
+
+
+
