@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Prototype 1 (wood)</title>
+
+
+
+	<link rel="stylesheet" href="CSS">
+
+
+</head>
+
+<body>
+	<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="Prototype 1.css">
+	</head>
+
+	<body>
+		<div id = "background"> 
+			<div>
+				<div class = "page_heading"> Data Analysis </div>
+			</div>
+			<img src = "Moodgraph.jpeg" alt = "Mood graph" style = "padding-left: 10px; padding-top: 10px; padding-bottom: 5px; width:274px; height: 188px;" background = white>
+			<div class = "instructions">
+				Positive Mood Influencers
+			</div>
+			<div>
+				<button class = "data_page_button"> 1. Happy </button>
+				<button class = "data_page_button"> 1. John Green </button>
+			</div>
+			<div>
+				<button class = "data_page_button"> 2. Family dinner </button>
+				<button class = "data_page_button"> 2. Janet Rutherford </button>
+			</div>
+			<div>
+				<button class = "data_page_button"> 3. Ran 2.5 miles </button>
+				<button class = "data_page_button"> 3. Bob Taylor </button>
+			</div>
+			<div id="homebutton">
+				<img src = "https://lh3.ggpht.com/A0x3jzuH1qRkE10HcTiT4qQr_6iAqVg-CTsoIqxnoIFyv92V91WI3KqiVlOvLtfoMRg=w300" alt = "Home button" style = " height:20px; width: 20px">
+			</div>
+
+		</div>
+	</body>
+
+	</html>
+
+
+</body>
+</html>
