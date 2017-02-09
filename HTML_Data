@@ -28,7 +28,9 @@
 			<button class = "data_page_button"> 3. Bob Taylor </button>
 		</div>
 		<div id="homebutton">
+	     <a href="HTML">
 			<img src = "https://lh3.ggpht.com/A0x3jzuH1qRkE10HcTiT4qQr_6iAqVg-CTsoIqxnoIFyv92V91WI3KqiVlOvLtfoMRg=w300" alt = "Home button" style = " height:20px; width: 20px">
+		</a>
 		</div>
 
 	</div>
