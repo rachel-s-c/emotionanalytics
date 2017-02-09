@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>What Did You Do Today?</title>
+  <link rel="stylesheet" href="CSS">  
+</head>
+
+<body>
+  <html>
+  <div id="background">
+    <head>
+     <p class="page_heading">What did you do today?</p>
+     <p id="description">The following apps and respective activities have been synced and recorded. Please check the items you would like to include in today's entry:</p>
+   </head>
+   
+   
+   <div id="activities">
+
+    <input id="checkbox1" class="checkbox" type="checkbox"/>
+    <div id="activity_1">
+     <button class="activity" id="Camera_Roll">Camera Roll
+      <img class="activity_item" src="http://weknowyourdreams.com/images/family/family-07.jpg" alt="Camera Roll Picture"/>
+      
+      <img class="activity_item" src="https://cdn.pixabay.com/photo/2016/02/19/15/46/dog-1210559_1280.jpg" alt="Camera Roll Picture"/>
+      
+      <img class="activity_item" src="http://www.technobuffalo.com/wp-content/uploads/2014/04/fast-food.jpg" alt="Camera Roll Picture"/>
+      
+    </button>
+  </div>
+
+  
+  <input id="checkbox2" class="checkbox" type="checkbox"/> 
+  <div id="activity_2">
+    <button class="activity" id="Calendar">Calendar
+      <img class="activity_item" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/225px-Solid_blue.svg.png" alt="Calendar Event"/>
+      <img class="activity_item" src="http://greensportsalliance.org/images/darkGreenSquare.gif" alt="Calendar Event"/>
+    </button>
+  </div>  
+
+  <input id="checkbox3" class="checkbox" type="checkbox"/>   
+  <div id="activity_3">
+    <button class="activity" id="Instagram"><a class="text">Instagram</a>
+      <img class="activity_item" src="http://previews.123rf.com/images/piksel/piksel0910/piksel091000022/5644857-Friends-with-thumbs-up-Stock-Photo-group-teenagers.jpg" alt="Photo"/>
+      <img class="activity_item" src="http://cdn.playbuzz.com/cdn/010987bf-7f90-4d71-bf97-75de0e9c4839/e88502ca-fb7e-4af7-afaa-60ca08eb814d.jpg" alt="Photo"/>
+      
+    </button>
+  </div>    
+
+  <input id="checkbox4" class="checkbox" type="checkbox"/> 
+  <div id="activity_4">
+    <button class="activity" id="Spotify">Spotify
+     <img class="activity_item" src="http://www.billboard.com/files/media/hamilton-musical-broadway-album-2015-billboard-650x_650.jpg" alt="Album"/> 
+     <img class="activity_item" src="https://nubimagazine.com/wp-content/uploads/2014/10/taylor-swift-1989.jpg" alt="Album"/> 
+     <img class="activity_item" src="https://upload.wikimedia.org/wikipedia/en/0/01/Believe-JB-Album.jpg" alt="Album"/> 
+   </button>
+ </div> 
+
+ <input id="checkbox5" class="select_all" type="checkbox"/>   
+ <div id="activity_5">
+  <button class="activity" id="Fitbit">Fitbit
+   <img class="activity_item" src="http://www.2wired2tired.com/wp-content/uploads/2013/03/Fitbit-Monthly-Steps.png" alt="Fitness"/>
+   <img class="activity_item" src="https://d30y9cdsu7xlg0.cloudfront.net/png/38420-200.png" alt="Fitness"/>
+   <img class="activity_item" src="http://www.todayimight.com/wp-content/uploads/2015/05/30000Step_Badge.png" alt="Fitness"/>
+ </button>
+</div>
+
+</div>
+
+<div>
+  <button id="next">Continue</button>
+  <div id="homebutton">
+    <img src = "https://lh3.ggpht.com/A0x3jzuH1qRkE10HcTiT4qQr_6iAqVg-CTsoIqxnoIFyv92V91WI3KqiVlOvLtfoMRg=w300" alt = "Home button" style = " height:20px; width: 20px">
+  </div>
+</div>
+</div> 
+
+
+</div>
+</html>
+
+
+</body>
+</html>

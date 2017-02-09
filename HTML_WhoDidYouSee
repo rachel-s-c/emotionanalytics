@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="CSS">
+  <script src="calculator.js"></script>
+</head>
+
+<body>
+
+  <div id = "background">
+    <p class = "page_heading">Who did you see today?</p>
+
+    <form id = "searchbar">
+      <input type = "text" id = "search" placeholder = "Search/Add">
+      <input type = "button" value = "Search">
+    </form>
+
+    <p id = "suggested">Suggested:</p>
+
+    <button class = "friend">
+      <img id = "profpic" src = "https://www.moodscope.com/img/grey-profile.jpg"></img>
+      <p class = "name">John Green</p>
+    </button>
+
+    <button class = "friend">
+      <img id = "profpic" src = "https://www.moodscope.com/img/grey-profile.jpg"></img>
+      <p class = "name">Bob Taylor</p>
+    </button>
+
+    <button class = "friend">
+      <img id = "profpic" src = "https://www.moodscope.com/img/grey-profile.jpg"></img>
+      <p class = "name">Janet Rutherford</p>
+    </button>
+
+    <button class = "friend">
+      <img id = "profpic" src = "https://www.moodscope.com/img/grey-profile.jpg"></img>
+      <p class = "name">Mary Lewis</p>
+    </button>
+
+    <button class = "friend">
+      <img id = "profpic" src = "https://www.moodscope.com/img/grey-profile.jpg"></img>
+      <p class = "name">Greg Bolton</p>
+    </button>
+
+    <div id="homebutton">
+				<img src = "https://lh3.ggpht.com/A0x3jzuH1qRkE10HcTiT4qQr_6iAqVg-CTsoIqxnoIFyv92V91WI3KqiVlOvLtfoMRg=w300" alt = "Home button" style = " height:20px; width: 20px">
+			</div>
+
+    <button id = "next">Submit</button>
+  </div>
+
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 #background {
-	background: pink;
+	background: lightgray;
   height: 420px;
 	width: 300px;
 }
@@ -62,7 +62,8 @@
 }
 
 .page_heading {
-  font-size: 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
   text-align: center;
   color: rgb(0,0,0);
 }
@@ -74,23 +75,6 @@
   padding-left: 5px;
   padding-right: 5px;
   font-family: Verdana, Geneva, sans-serif;
-}
-
-#continue{
-  font-size: 12px;
-  position:fixed;
-  float: right;
-  left: 200px;
-  top: 400px;
-}
-
-#continue:hover{
-  transform: scale(1.2);
-}
-
-#continue:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
 
 
@@ -129,3 +113,146 @@
   transform: translateY(4px);
 }
 
+#searchbar {
+  width: 280px;
+  height: 40px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.input[type=text] {
+  width: 130px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 72%;
+}
+
+#suggested {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+}
+
+.friend {
+  width: 280px;
+  height: 45px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.friend:hover {
+    transform: scale(1.05);
+}
+
+.friend:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.name {
+  text-align: left;
+  padding-left: 80px;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+}
+
+#profpic {
+  float: left;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+/* next represents either Submit or continue*/
+#next{
+  font-size: 12px;
+  position:fixed;
+  float: right;
+  left: 200px;
+  top: 397px;
+  background-color: lightblue;
+}
+
+#next:hover{
+  transform: scale(1.2);
+}
+
+#next:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.activity {
+  font-size: 15px;
+  float: right;
+  height: 50px;
+  width: 265px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: rgb(255,255,255);
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+}
+
+.activity_item {
+  float: right;
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  
+  
+}
+
+#description {
+  font-size: 11px;
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 5px;
+}
+
+#checkbox1 {
+  position: absolute;
+  top: 160px;
+  left: 15px;
+}
+
+#checkbox2 {
+  position: absolute;
+  top: 215px;
+  left: 15px;
+}
+
+#checkbox3 {
+  position: absolute;
+  top: 270px;
+  left: 15px;
+}
+
+#checkbox4 {
+  position: absolute;
+  top: 325px;
+  left: 15px;
+}
+
+#checkbox5 {
+  position: absolute;
+  top: 380px;
+  left: 15px;
+}
