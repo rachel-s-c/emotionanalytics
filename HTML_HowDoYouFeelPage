@@ -84,7 +84,7 @@
 		</div>
 
 		<div>
-			<button id="next" onclick="window.location='what did you do today page.html';"> Continue </button>
+			<button id="next" onclick="window.location='HTML_WhatDidYouDoToday';""> Continue </button>
 		</div>
 
 		<div id="homebutton">
