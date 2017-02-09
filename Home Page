@@ -11,7 +11,7 @@
 
 <body>
 <div id="background"> 
-  <img id="settings" src="https://www.muninmx.com/images/pre3.png" alt="Settings"></img>
+  <img id="settings" src="https://image.freepik.com/free-icon/settings-gear-for-interface-button_318-32785.jpg" alt="Settings"></img>
 <p id="title"> Emotionalytics </p>  
 <div>
 	<button id="how_do_you_feel_button" onclick="window.location='HTML_HowDoYouFeelPage';"> How do you feel? </button>
